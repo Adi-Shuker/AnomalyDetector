@@ -62,6 +62,8 @@ Line linear_reg(Point** points, int size){
     float x_1 = avg(x,size);
     float y_1 = avg(y,size);
     float b = y_1-a*x_1;
+    delete[] x;
+    delete[] y;
     return Line(a,b);
 }
 

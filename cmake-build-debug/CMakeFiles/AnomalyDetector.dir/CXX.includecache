@@ -34,10 +34,6 @@ time.h
 math.h
 -
 
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/SimpleAnomalyDetector.cpp
-SimpleAnomalyDetector.h
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/SimpleAnomalyDetector.h
-
 /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/SimpleAnomalyDetector.h
 anomaly_detection_util.h
 /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/anomaly_detection_util.h
@@ -52,23 +48,17 @@ string.h
 math.h
 -
 
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/anomaly_detection_util.cpp
-math.h
+/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/anomaly_detection_util.h
+
+/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/timeseries.h
+map
 -
-bits/streambuf_iterator.h
+vector
 -
-algorithm
+fstream
 -
 iostream
 -
-anomaly_detection_util.h
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/anomaly_detection_util.h
-
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/anomaly_detection_util.h
-
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/timeseries.cpp
-timeseries.h
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/timeseries.h
-
-/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/timeseries.h
+sstream
+-
 
