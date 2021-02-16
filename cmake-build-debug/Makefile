@@ -123,6 +123,60 @@ AnomalyDetector/fast:
 	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/build
 .PHONY : AnomalyDetector/fast
 
+CLI.o: CLI.cpp.o
+
+.PHONY : CLI.o
+
+# target to build an object file
+CLI.cpp.o:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/CLI.cpp.o
+.PHONY : CLI.cpp.o
+
+CLI.i: CLI.cpp.i
+
+.PHONY : CLI.i
+
+# target to preprocess a source file
+CLI.cpp.i:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/CLI.cpp.i
+.PHONY : CLI.cpp.i
+
+CLI.s: CLI.cpp.s
+
+.PHONY : CLI.s
+
+# target to generate assembly for a file
+CLI.cpp.s:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/CLI.cpp.s
+.PHONY : CLI.cpp.s
+
+HybridAnomalyDetector.o: HybridAnomalyDetector.cpp.o
+
+.PHONY : HybridAnomalyDetector.o
+
+# target to build an object file
+HybridAnomalyDetector.cpp.o:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o
+.PHONY : HybridAnomalyDetector.cpp.o
+
+HybridAnomalyDetector.i: HybridAnomalyDetector.cpp.i
+
+.PHONY : HybridAnomalyDetector.i
+
+# target to preprocess a source file
+HybridAnomalyDetector.cpp.i:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.i
+.PHONY : HybridAnomalyDetector.cpp.i
+
+HybridAnomalyDetector.s: HybridAnomalyDetector.cpp.s
+
+.PHONY : HybridAnomalyDetector.s
+
+# target to generate assembly for a file
+HybridAnomalyDetector.cpp.s:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.s
+.PHONY : HybridAnomalyDetector.cpp.s
+
 MainTrain.o: MainTrain.cpp.o
 
 .PHONY : MainTrain.o
@@ -149,6 +203,33 @@ MainTrain.s: MainTrain.cpp.s
 MainTrain.cpp.s:
 	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/MainTrain.cpp.s
 .PHONY : MainTrain.cpp.s
+
+Server.o: Server.cpp.o
+
+.PHONY : Server.o
+
+# target to build an object file
+Server.cpp.o:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/Server.cpp.o
+.PHONY : Server.cpp.o
+
+Server.i: Server.cpp.i
+
+.PHONY : Server.i
+
+# target to preprocess a source file
+Server.cpp.i:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/Server.cpp.i
+.PHONY : Server.cpp.i
+
+Server.s: Server.cpp.s
+
+.PHONY : Server.s
+
+# target to generate assembly for a file
+Server.cpp.s:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/Server.cpp.s
+.PHONY : Server.cpp.s
 
 SimpleAnomalyDetector.o: SimpleAnomalyDetector.cpp.o
 
@@ -204,6 +285,33 @@ anomaly_detection_util.cpp.s:
 	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/anomaly_detection_util.cpp.s
 .PHONY : anomaly_detection_util.cpp.s
 
+minCircle.o: minCircle.cpp.o
+
+.PHONY : minCircle.o
+
+# target to build an object file
+minCircle.cpp.o:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o
+.PHONY : minCircle.cpp.o
+
+minCircle.i: minCircle.cpp.i
+
+.PHONY : minCircle.i
+
+# target to preprocess a source file
+minCircle.cpp.i:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/minCircle.cpp.i
+.PHONY : minCircle.cpp.i
+
+minCircle.s: minCircle.cpp.s
+
+.PHONY : minCircle.s
+
+# target to generate assembly for a file
+minCircle.cpp.s:
+	$(MAKE) -f CMakeFiles/AnomalyDetector.dir/build.make CMakeFiles/AnomalyDetector.dir/minCircle.cpp.s
+.PHONY : minCircle.cpp.s
+
 timeseries.o: timeseries.cpp.o
 
 .PHONY : timeseries.o
@@ -240,15 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AnomalyDetector"
+	@echo "... CLI.o"
+	@echo "... CLI.i"
+	@echo "... CLI.s"
+	@echo "... HybridAnomalyDetector.o"
+	@echo "... HybridAnomalyDetector.i"
+	@echo "... HybridAnomalyDetector.s"
 	@echo "... MainTrain.o"
 	@echo "... MainTrain.i"
 	@echo "... MainTrain.s"
+	@echo "... Server.o"
+	@echo "... Server.i"
+	@echo "... Server.s"
 	@echo "... SimpleAnomalyDetector.o"
 	@echo "... SimpleAnomalyDetector.i"
 	@echo "... SimpleAnomalyDetector.s"
 	@echo "... anomaly_detection_util.o"
 	@echo "... anomaly_detection_util.i"
 	@echo "... anomaly_detection_util.s"
+	@echo "... minCircle.o"
+	@echo "... minCircle.i"
+	@echo "... minCircle.s"
 	@echo "... timeseries.o"
 	@echo "... timeseries.i"
 	@echo "... timeseries.s"

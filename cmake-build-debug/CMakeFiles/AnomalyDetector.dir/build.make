@@ -109,12 +109,68 @@ CMakeFiles/AnomalyDetector.dir/timeseries.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnomalyDetector.dir/timeseries.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/timeseries.cpp -o CMakeFiles/AnomalyDetector.dir/timeseries.cpp.s
 
+CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o: CMakeFiles/AnomalyDetector.dir/flags.make
+CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o: ../HybridAnomalyDetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o -c /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/HybridAnomalyDetector.cpp
+
+CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/HybridAnomalyDetector.cpp > CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.i
+
+CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/HybridAnomalyDetector.cpp -o CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.s
+
+CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o: CMakeFiles/AnomalyDetector.dir/flags.make
+CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o: ../minCircle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o -c /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/minCircle.cpp
+
+CMakeFiles/AnomalyDetector.dir/minCircle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnomalyDetector.dir/minCircle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/minCircle.cpp > CMakeFiles/AnomalyDetector.dir/minCircle.cpp.i
+
+CMakeFiles/AnomalyDetector.dir/minCircle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnomalyDetector.dir/minCircle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/minCircle.cpp -o CMakeFiles/AnomalyDetector.dir/minCircle.cpp.s
+
+CMakeFiles/AnomalyDetector.dir/CLI.cpp.o: CMakeFiles/AnomalyDetector.dir/flags.make
+CMakeFiles/AnomalyDetector.dir/CLI.cpp.o: ../CLI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AnomalyDetector.dir/CLI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnomalyDetector.dir/CLI.cpp.o -c /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/CLI.cpp
+
+CMakeFiles/AnomalyDetector.dir/CLI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnomalyDetector.dir/CLI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/CLI.cpp > CMakeFiles/AnomalyDetector.dir/CLI.cpp.i
+
+CMakeFiles/AnomalyDetector.dir/CLI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnomalyDetector.dir/CLI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/CLI.cpp -o CMakeFiles/AnomalyDetector.dir/CLI.cpp.s
+
+CMakeFiles/AnomalyDetector.dir/Server.cpp.o: CMakeFiles/AnomalyDetector.dir/flags.make
+CMakeFiles/AnomalyDetector.dir/Server.cpp.o: ../Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AnomalyDetector.dir/Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnomalyDetector.dir/Server.cpp.o -c /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/Server.cpp
+
+CMakeFiles/AnomalyDetector.dir/Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnomalyDetector.dir/Server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/Server.cpp > CMakeFiles/AnomalyDetector.dir/Server.cpp.i
+
+CMakeFiles/AnomalyDetector.dir/Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnomalyDetector.dir/Server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/עדי/CLionProjects/AnomalyDetector/Server.cpp -o CMakeFiles/AnomalyDetector.dir/Server.cpp.s
+
 # Object files for target AnomalyDetector
 AnomalyDetector_OBJECTS = \
 "CMakeFiles/AnomalyDetector.dir/anomaly_detection_util.cpp.o" \
 "CMakeFiles/AnomalyDetector.dir/MainTrain.cpp.o" \
 "CMakeFiles/AnomalyDetector.dir/SimpleAnomalyDetector.cpp.o" \
-"CMakeFiles/AnomalyDetector.dir/timeseries.cpp.o"
+"CMakeFiles/AnomalyDetector.dir/timeseries.cpp.o" \
+"CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o" \
+"CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o" \
+"CMakeFiles/AnomalyDetector.dir/CLI.cpp.o" \
+"CMakeFiles/AnomalyDetector.dir/Server.cpp.o"
 
 # External object files for target AnomalyDetector
 AnomalyDetector_EXTERNAL_OBJECTS =
@@ -123,9 +179,13 @@ AnomalyDetector: CMakeFiles/AnomalyDetector.dir/anomaly_detection_util.cpp.o
 AnomalyDetector: CMakeFiles/AnomalyDetector.dir/MainTrain.cpp.o
 AnomalyDetector: CMakeFiles/AnomalyDetector.dir/SimpleAnomalyDetector.cpp.o
 AnomalyDetector: CMakeFiles/AnomalyDetector.dir/timeseries.cpp.o
+AnomalyDetector: CMakeFiles/AnomalyDetector.dir/HybridAnomalyDetector.cpp.o
+AnomalyDetector: CMakeFiles/AnomalyDetector.dir/minCircle.cpp.o
+AnomalyDetector: CMakeFiles/AnomalyDetector.dir/CLI.cpp.o
+AnomalyDetector: CMakeFiles/AnomalyDetector.dir/Server.cpp.o
 AnomalyDetector: CMakeFiles/AnomalyDetector.dir/build.make
 AnomalyDetector: CMakeFiles/AnomalyDetector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable AnomalyDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable AnomalyDetector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnomalyDetector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

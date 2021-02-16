@@ -85,7 +85,25 @@
 		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/AnomalyDetector.h">
 			<Option target="AnomalyDetector"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/CLI.cpp">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/CLI.h">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/HybridAnomalyDetector.cpp">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/HybridAnomalyDetector.h">
+			<Option target="AnomalyDetector"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/MainTrain.cpp">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/Server.cpp">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/Server.h">
 			<Option target="AnomalyDetector"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/SimpleAnomalyDetector.cpp">
@@ -98,6 +116,15 @@
 			<Option target="AnomalyDetector"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/anomaly_detection_util.h">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/commands.h">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/minCircle.cpp">
+			<Option target="AnomalyDetector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/minCircle.h">
 			<Option target="AnomalyDetector"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/עדי/CLionProjects/AnomalyDetector/timeseries.cpp">

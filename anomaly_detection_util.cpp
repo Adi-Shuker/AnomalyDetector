@@ -77,6 +77,13 @@ float dev(Point p,Line l){
     return abs(l.f(p.x)-p.y);
 }
 
+// returns the deviation between point p and the line
+float dev(Point p1,Point p2){
+    return sqrt((p1.x-p2.x)*(p1.x-p2.x)+(p1.y-p2.y)*(p1.y-p2.y));
+}
+
+
+
 
 
 

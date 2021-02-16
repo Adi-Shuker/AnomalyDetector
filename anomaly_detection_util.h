@@ -27,7 +27,7 @@ public:
 
 class Point{
 public:
-    const float x,y;
+    float x,y;
     Point(float x, float y):x(x),y(y){}
 };
 
@@ -39,5 +39,6 @@ float dev(Point p,Point** points, int size);
 
 // returns the deviation between point p and the line
 float dev(Point p,Line l);
+float dev(Point p1,Point p2);
 
 #endif
