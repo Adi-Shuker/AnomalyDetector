@@ -23,16 +23,13 @@ To use the user has to load two data files to the server:
     4. display results
     5. upload anomalies and analyze results
     6. exit
+* the user also can chenge the algorithm setting and analyze the results<br>
 * MainPage that contains:<br>
  • mediaBar to play the movie, change the speed, stop, go back to the beginning/end<br>
  • joystick and sliders that move according to the position of the airplane<br>
  • data display that contains altimeter, airspeed, heading, pitch, roll, yaw... <br>
  • a list of all the timestep in which there are anomalies<br>
  • graphs related to the flights attributes<br>
-
-   <br>
- ![alt tag](https://user-images.githubusercontent.com/81378726/114765868-5c927e80-9d6e-11eb-8d67-b622cb773e00.jpg)
-   <br>
 
 # Getting Started
 # Download
